@@ -1,0 +1,4 @@
+pytest -m "sanity" --html=./Reports/report4.html testCases 
+REM pytest -m "regression" --html=./Reports/report4.html testCases
+REM pytest -m "sanity or regression" --html=./Reports/report4.html testCases  
+REM pytest -m "sanity and regression" --html=./Reports/report4.html testCases 
